@@ -1,0 +1,149 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+nav .icon {
+  display: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 15px;
+}
+
+nav p {
+  color: #2f9da5;
+  text-align: left;
+  margin-left: 13px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+nav h1 {
+  color: #06e8f0;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  font-size: 25px;
+}
+
+nav a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #2f9da5;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #06e8f0;
+}
+
+button {
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+  margin-top: 80px;
+}
+
+button {
+  color: #4e8f99;
+  margin-left: 3%;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button:hover {
+  background-color: #043030;
+  color: #2baeb3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.btn-primary {
+  margin-left: 39%;
+  color: #df4811;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.heading {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #03333f;
+}
+
+body {
+  font: Georgia, "Times New Roman", Times, serif;
+}
+
+.showcase {
+  background-color: powderblue;
+  height: auto;
+}
+
+.showcase .bgimage {
+  height: 535px;
+  width: 100%;
+}
+
+.showcase .my-1 {
+  color: #27277e;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase img {
+  float: left;
+  width: 200%;
+  height: 200%;
+  margin: 19px;
+}
+
+.showcase .my-2 {
+  width: 50%;
+  height: 250px;
+  float: right;
+  margin-right: 10px;
+}
+
+.showcase .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 25%;
+  margin-left: 45px;
+}
+
+.showcase:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.showcase .card-image {
+  padding: 2px 10px;
+}
+
+.showcase #cardimg1 {
+  margin: 1px;
+}
+/*# sourceMappingURL=main.css.map */

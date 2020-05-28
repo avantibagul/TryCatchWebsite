@@ -1,0 +1,31 @@
+%btn{
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 3px;
+    margin-top:80px;
+   
+}
+
+button{
+    @extend %btn;
+    color:$Button_color ;
+    margin-left: 3%;
+    font-size: 20px;
+    font-family: $Font_family;
+    &:hover{
+     background-color:$Button_bg_hover; 
+     color: rgb(43, 174, 179);
+     transition: 0.5s;
+     transition-timing-function: ease-in-out;
+    }
+}
+
+    .btn-primary{
+        margin-left: 39%;
+        color:rgb(223, 72, 17);
+        font-size: 20px;
+        font-family: $Font_family;
+       
+    }
+
+

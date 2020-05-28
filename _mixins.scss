@@ -1,0 +1,37 @@
+@mixin largeScreen {
+  @media only screen and (max-width: 960px) {
+    @content;
+  }
+}
+
+@mixin mediumScreen {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin smallScreen {
+  @media only screen and (max-width: 460px) {
+    @content;
+  }
+}
+
+@mixin tinyScreen {
+  @media only screen and (max-width: 320px) {
+    .nav.responsive {
+      position: relative;
+    }
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+    }
+    .nav.responsive a {
+      float: none;
+      display: none;
+      text-align: right;
+    }
+  }
+}
+

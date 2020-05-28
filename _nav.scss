@@ -1,0 +1,56 @@
+$Display: flex;
+$Nav_backgroud_color: black;
+$Para_color:  rgb(47, 157, 165);
+$Para_size: 15px;
+$Title_color: rgb(6, 232, 240);
+$Title_size: 25px;
+$Link-color:  rgb(47, 157, 165);
+$Link_size: 20px;
+
+nav {
+        
+    display: $Display;
+    background-color:$Nav_backgroud_color;
+    justify-content: space-between;
+    align-items: end;
+   
+
+    .icon{
+        display: none;
+    }
+
+    ul {
+      display: $Display;
+      list-style-type: none;
+    }
+
+    li {
+      padding: 15px;
+    }
+    p{
+        color: $Para_color;
+        text-align: left;
+        margin-left: 13px;
+        font-style: italic;
+        font-size: $Para_size;
+       
+    }
+    h1{
+        color: $Title_color;
+        margin-bottom: 5px;
+        margin-left: 3px;
+        font-size: $Title_size;
+
+    }
+    a{
+        font-family: $Font_family;
+        color: $Link-color;
+        text-decoration:none;
+        font-size: $Link_size;
+
+        &:hover{
+            color:$Title_color;
+        }
+
+    }
+  }
